@@ -10,8 +10,10 @@ public class Gestion {
         LocalDate dt2 = LocalDate.of(2020,7,15);
         Auteur aut = new Auteur("Musso","Guillaume","Belge");
         Livre liv = new Livre("titre",10,dt,15.25,"Fr","Policier","978 - 2 - 7177 - 2113 - 4",254,TypeLivre.ROMAN,"resumé");
-        aut.getLouvrage().add(liv);
-        liv.getLauteurs().add(aut);
+        //aut.getLouvrage().add(liv);
+        //liv.getLauteurs().add(aut);
+        //A definir :
+        aut.addOuvr(liv);
         Rayon ray = new Rayon("Be023","Policier");
         Exemplaire ex = new Exemplaire("201881","occasion",liv);
         ex.setRayon(ray);
@@ -22,7 +24,10 @@ public class Gestion {
         ex.getLloc().add(loc);
         System.out.println(aut);
         System.out.println(liv);
-        System.out.println(ex);
-        System.out.println(lec);
+        System.out.println(liv.getLauteurs());
+        aut.suppOuvr(liv);
+        System.out.println("---------------");
+        System.out.println(liv.getLauteurs());
+
     }
 }
