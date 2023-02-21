@@ -15,6 +15,9 @@ public class Auteur {
         this.prenom = prenom;
         this.nationalite = nationalite;
     }
+    public Auteur(){
+
+    }
 
     public String getNom() {
         return nom;
@@ -48,14 +51,15 @@ public class Auteur {
         this.louvrage = louvrage;
     }
 
-    public void addOuvr(Ouvrage o){
-        louvrage.add(o);
-        o.getLauteurs().add(this);
+    public void addOuvrage(Ouvrage o){
+       louvrage.add(o);
+       o.getLauteurs().add(this);
     }
-    public void suppOuvr(Ouvrage o){
-        louvrage.add(o);
+    public void removeOuvrage(Ouvrage o){
+        louvrage.remove(o);
         o.getLauteurs().remove(this);
     }
+
 
     @Override
     public boolean equals(Object o) {

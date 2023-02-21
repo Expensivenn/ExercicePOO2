@@ -13,6 +13,11 @@ public class Rayon {
         this.codeRayon = codeRayon;
         this.genre = genre;
     }
+    public void listerExemplaiares(){
+        for (Exemplaire e:lex) {
+            System.out.println(e);
+        }
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -58,6 +63,7 @@ public class Rayon {
     public void setLex(List<Exemplaire> lex) {
         this.lex = lex;
     }
+
 
 
 }

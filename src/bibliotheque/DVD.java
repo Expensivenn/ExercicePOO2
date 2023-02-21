@@ -59,6 +59,12 @@ public class DVD extends Ouvrage{
         this.sousTitres = sousTitres;
     }
 
+    public void addLangue(String s){
+        autresLangues.add(s);
+    }
+    public void addSousTitre(String s){
+        sousTitres.add(s);
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

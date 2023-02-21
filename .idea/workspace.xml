@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Commit gestion">
+    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Commit fonct ajout et suppr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Rayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Rayon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Ecole/2/POO2/Exo/Biblio2023/ExercicePOO2",
+    "last_opened_file_path": "C:/Ecole/2/API1/Futsal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +89,9 @@
       <workItem from="1675931359763" duration="3180000" />
       <workItem from="1676292463964" duration="20000" />
       <workItem from="1676392796023" duration="1003000" />
+      <workItem from="1676446065545" duration="745000" />
+      <workItem from="1676464730684" duration="145000" />
+      <workItem from="1676534916291" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="Commit gestion">
       <created>1675934358318</created>
@@ -91,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675934358318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit fonct ajout et suppr">
+      <created>1676446114657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676446114657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit gestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit gestion" />
+    <MESSAGE value="Commit fonct ajout et suppr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit fonct ajout et suppr" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

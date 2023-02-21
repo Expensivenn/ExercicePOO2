@@ -88,7 +88,10 @@ public class Lecteur {
     public void setLloc(List<Location> lloc) {
         this.lloc = lloc;
     }
-
+    public void addLoc(Location loc,Exemplaire e){
+        lloc.add(loc);
+        e.getLloc().add(loc);
+    }
     @Override
     public String toString() {
         return "Lecteur{" +

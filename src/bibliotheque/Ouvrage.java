@@ -99,6 +99,12 @@ public abstract class Ouvrage {
         this.lex = lex;
     }
 
+    public void listerExemplaiares(){
+        for (Exemplaire e:lex) {
+            System.out.println(e);
+        }
+    }
+
     @Override
     public String toString() {
         return "Ouvrage{" +
