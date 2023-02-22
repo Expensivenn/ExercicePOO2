@@ -53,6 +53,11 @@ public class CD extends Ouvrage{
     }
 
     @Override
+    public void amendeRetard(int jour) {
+        //TODO
+    }
+
+    @Override
     public String toString() {
         return super.toString()+"CD{" +
                 "code=" + code +

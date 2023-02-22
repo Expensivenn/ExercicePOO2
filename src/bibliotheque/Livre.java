@@ -64,6 +64,11 @@ public class Livre extends Ouvrage{
     }
 
     @Override
+    public void amendeRetard(int jour) {
+        //TODO
+    }
+
+    @Override
     public String toString() {
         return super.toString()+ "Livre{" +
                 "isbn='" + isbn + '\'' +

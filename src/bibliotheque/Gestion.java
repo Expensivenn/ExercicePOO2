@@ -43,18 +43,25 @@ public class Gestion {
         laut.add(a);
     }
     public static Ouvrage encoderOuvrage(){
-        int choix;
+        String erreur ="Erreur ne commence pas par une Maj";
+        int choix = 0;
         String option;
         do {
             listOuvr();
-            option = verifEntreeBoucle("[1-3]","Entrez un chiffre","Pas entre 1 et 5 !");
+            option = verifEntreeBoucle("[1-3]","Entrez un chiffre","Pas entre 1 et 3 !");
             choix = Integer.parseInt(option);
             switch (choix) {
-                case 1 -> //cd;//menuDeux
-                case 2 -> //dvd;
-                case 3 -> //livre;
+                case 1 -> System.out.println("Entrez les données du cd");
+                case 2 -> System.out.println("Entrez les données du dvd");
+                case 3 -> System.out.println("Entrez les données du livre");
+
             }
-        } while (choix != 3);
+        } while (choix == 0 || choix > 3);
+        String Titre = verifEntreeBoucle("[A-Z][A-Za-z]+", "Entrez le nom :", erreur);
+
+    }
+    public static CD encoderCD(){
+
     }
 
     public static void populate() {

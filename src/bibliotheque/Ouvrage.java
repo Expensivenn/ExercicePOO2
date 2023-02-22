@@ -100,10 +100,13 @@ public abstract class Ouvrage {
     }
 
     public void listerExemplaiares(){
-        for (Exemplaire e:lex) {
-            System.out.println(e);
-        }
+        //TODO
     }
+    public void listerExemplaires(boolean loc){
+        //TODO
+    }
+    public abstract void amendeRetard(int jour);
+
 
     @Override
     public String toString() {

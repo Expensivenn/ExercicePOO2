@@ -28,6 +28,28 @@ public class Exemplaire {
         //TODO
         return null;
     }
+    public List<Lecteur> lecteurs(){
+        //TODO
+        return null;
+    }
+    public void envoieMailLecteurActuel(Mail mail){
+        //TODO
+    }
+    public void envoieMailLecteurs(Mail mail){
+        //TODO
+    }
+    public boolean enRetard(){
+        //TODO
+        return false;
+    }
+    public int joursRetard(){
+        //TODO
+        return 0;
+    }
+    public boolean enLocation(){
+        //TODO
+        return false;
+    }
     public void addRayon(Rayon r){
         this.setRayon(r);
         r.getLex().add(this);

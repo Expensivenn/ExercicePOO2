@@ -92,6 +92,12 @@ public class Lecteur {
         lloc.add(loc);
         e.getLloc().add(loc);
     }
+    public void listerExemplairesEnLoc(){
+        //TODO
+    }
+    public void listerExemplairesLoues(){
+        //TODO
+    }
     @Override
     public String toString() {
         return "Lecteur{" +

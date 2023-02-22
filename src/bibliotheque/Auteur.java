@@ -59,7 +59,15 @@ public class Auteur {
         louvrage.remove(o);
         o.getLauteurs().remove(this);
     }
-
+    public void listerOuvrage(){
+        //TODO
+    }
+    public void listerOuvrages(Ouvrage ouv,Livre liv){
+        //TODO
+    }
+    public void listerOuvrage(String genre){
+        //TODO
+    }
 
     @Override
     public boolean equals(Object o) {
