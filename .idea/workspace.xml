@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Debut gestion">
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/ExemplaireComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/ExemplaireComparatorBis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Livre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Rayon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/TypeLivre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/TypeOuvrage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +55,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Ecole/2/POO2/Exo/Biblio2023/ExercicePOO2",
+    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/POO2/MOI/ExercicePOO2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.bibliotheque.gestion.Gestion">
     <configuration name="Gestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bibliotheque.Gestion" />
       <module name="ExercicesPOO2" />
@@ -71,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bibliotheque.gestion.Gestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bibliotheque.gestion.Gestion" />
+      <module name="ExercicesPOO2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bibliotheque.gestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bibliotheque.gestion.Gestion" />
         <item itemvalue="Application.Gestion" />
       </list>
     </recent_temporary>
@@ -95,6 +118,9 @@
       <workItem from="1676534916291" duration="4289000" />
       <workItem from="1676982049844" duration="723000" />
       <workItem from="1677092808692" duration="1544000" />
+      <workItem from="1678305239853" duration="499000" />
+      <workItem from="1678354203116" duration="13000" />
+      <workItem from="1678354557030" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary="Commit gestion">
       <created>1675934358318</created>
