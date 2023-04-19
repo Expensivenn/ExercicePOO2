@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Debut gestion">
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/ExemplaireComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/ExemplaireComparatorBis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageComparator.java" afterDir="false" />
+    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Todo classe gestion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Auteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/CD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/DVD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Exemplaire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Gestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Lecteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Livre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Ouvrage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/Rayon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/TypeLivre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/TypeOuvrage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/POO2/MOI/ExercicePOO2",
+    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/POO2/MOI/Bibliotheque2023",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +112,11 @@
       <workItem from="1677092808692" duration="1544000" />
       <workItem from="1678305239853" duration="499000" />
       <workItem from="1678354203116" duration="13000" />
-      <workItem from="1678354557030" duration="5721000" />
+      <workItem from="1678354557030" duration="6627000" />
+      <workItem from="1678709964010" duration="232000" />
+      <workItem from="1678898547204" duration="127000" />
+      <workItem from="1681888202707" duration="14000" />
+      <workItem from="1681926684863" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="Commit gestion">
       <created>1675934358318</created>
@@ -143,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676982088603</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todo classe gestion">
+      <created>1678360363661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678360363661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Todo classe gestion">
+      <created>1678360537922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678360537922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +174,8 @@
     <MESSAGE value="Commit gestion" />
     <MESSAGE value="Commit fonct ajout et suppr" />
     <MESSAGE value="Debut gestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debut gestion" />
+    <MESSAGE value="Todo classe gestion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo classe gestion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
