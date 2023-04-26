@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Todo classe gestion">
+    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="DAO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteuComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/model/OuvrageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/OuvrageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/view/OuvrageViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/view/OuvrageViewConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/POO2/MOI/Bibliotheque2023",
+    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/API2/copie DM/demoMagasin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +55,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.bibliotheque.gestion.Gestion">
+  <component name="RunManager" selected="Application.GestBiblio">
+    <configuration name="GestBiblio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bibliotheque.mvp.GestBiblio" />
+      <module name="ExercicesPOO2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bibliotheque.mvp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bibliotheque.Gestion" />
       <module name="ExercicesPOO2" />
@@ -87,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GestBiblio" />
         <item itemvalue="Application.bibliotheque.gestion.Gestion" />
         <item itemvalue="Application.Gestion" />
       </list>
@@ -117,6 +128,9 @@
       <workItem from="1678898547204" duration="127000" />
       <workItem from="1681888202707" duration="14000" />
       <workItem from="1681926684863" duration="162000" />
+      <workItem from="1681926879244" duration="435000" />
+      <workItem from="1681982018978" duration="3724000" />
+      <workItem from="1682495872855" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="Commit gestion">
       <created>1675934358318</created>
@@ -153,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678360537922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DAO">
+      <created>1681926925907</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926925907</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DAO">
+      <created>1681926956887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926956887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +203,8 @@
     <MESSAGE value="Commit fonct ajout et suppr" />
     <MESSAGE value="Debut gestion" />
     <MESSAGE value="Todo classe gestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo classe gestion" />
+    <MESSAGE value="DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

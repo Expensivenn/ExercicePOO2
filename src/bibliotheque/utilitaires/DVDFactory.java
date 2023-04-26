@@ -12,6 +12,8 @@ public class DVDFactory extends OuvrageFactory{
     public Ouvrage addDetail(String titre, int ageMin, LocalDate dateParution, double prixLocation, String langue, String genre){
         System.out.println("code : ");
         long code= sc.nextLong();
+        sc.skip("\n");
+        System.out.println("Duree : (h mm ss)");
         LocalTime dureeTotale=Utilitaire.lecTime();
         byte nbreBonus= sc.nextByte();sc.skip("\n");
         DVD dvd =new DVD(titre,ageMin,dateParution,prixLocation,langue,genre,code,dureeTotale,nbreBonus);

@@ -70,18 +70,18 @@ public class OuvrageViewConsole implements OuvrageViewInterface{
         Ouvrage o;
         List<OuvrageFactory> lof = new ArrayList<>(Arrays.asList(new LivreFactory(),new CDFactory(),new DVDFactory()));
         o = lof.get(choix-1).create();
-        this.louv.add(o);
+        //this.louv.add(o);
         presenter.addOuvrage(o);
         //TODO attribuer auteurs, les auteur sont triés par odre de nom et prénom, empêcher doublons
     }
 
     @Override
     public void affMsg(String msg) {
-
+        System.out.println("information:" + msg);
     }
 
     @Override
     public void affList(List<Ouvrage> louv) {
-
+        affListe(louv);
     }
 }

@@ -11,7 +11,7 @@ public class OuvrageModel implements DAOOuvrage{
     @Override
     public Ouvrage addOuvrage(Ouvrage ouv) {
         boolean present = ouvrages.contains(ouv);
-        if (present) {
+        if (!present) {
             ouvrages.add(ouv);
             return ouv;
         } else return null;

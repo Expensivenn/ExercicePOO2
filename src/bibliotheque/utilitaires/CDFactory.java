@@ -13,10 +13,24 @@ import java.util.List;
 
 public class CDFactory extends OuvrageFactory{
     public Ouvrage addDetail(String titre, int ageMin, LocalDate dateParution, double prixLocation, String langue, String genre){
+        long code = 0;
+        byte nbrePlages = 0;
         System.out.println("code : ");
-        long code= sc.nextLong();
+        String scode= sc.nextLine();
+        try {
+            code =Long.parseLong(scode);
+
+        }catch(NumberFormatException e) {
+            System.out.println("code invalide!");
+        }
         System.out.println("nombre de plages :");
-        byte nbrePlages= sc.nextByte();sc.skip("\n");
+        String snbrePlages= sc.nextLine();
+        try {
+            nbrePlages =Byte.parseByte(snbrePlages);
+
+        }catch(NumberFormatException e) {
+            System.out.println("nombre invalide!");
+        }
         System.out.println("durée en H M S : ");
         LocalTime dureeTotale = Utilitaire.lecTime();
         CD cd =new CD(titre,ageMin,dateParution,prixLocation,langue,genre,code,nbrePlages,dureeTotale);
