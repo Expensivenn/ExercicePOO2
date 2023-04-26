@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="DAO">
+    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Exception">
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/DAORayon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/RayonModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/model/OuvrageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/OuvrageModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/view/OuvrageViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/view/OuvrageViewConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/API2/copie DM/demoMagasin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Documents/Ecole/API2/copie DM/demoMagasin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.GestBiblio">
     <configuration name="GestBiblio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bibliotheque.mvp.GestBiblio" />
@@ -131,6 +128,7 @@
       <workItem from="1681926879244" duration="435000" />
       <workItem from="1681982018978" duration="3724000" />
       <workItem from="1682495872855" duration="39000" />
+      <workItem from="1682533314220" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Commit gestion">
       <created>1675934358318</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681926956887</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exception">
+      <created>1682533337143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682533337144</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +209,8 @@
     <MESSAGE value="Debut gestion" />
     <MESSAGE value="Todo classe gestion" />
     <MESSAGE value="DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAO" />
+    <MESSAGE value="Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
