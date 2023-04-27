@@ -1,39 +1,23 @@
 package bibliotheque.mvp.model;
+
+import bibliotheque.metier.Exemplaire;
 import bibliotheque.metier.Ouvrage;
-import java.util.ArrayList;
+
 import java.util.List;
 
-public class OuvrageModel implements DAOOuvrage{
-
-    private List<Ouvrage> ouvrages = new ArrayList<>();
-
-
+public class OuvrageModel extends AbstractModel<Ouvrage> implements SpecialOuvrage {
     @Override
-    public Ouvrage addOuvrage(Ouvrage ouv) {
-        boolean present = ouvrages.contains(ouv);
-        if (!present) {
-            ouvrages.add(ouv);
-            return ouv;
-        } else return null;
+    public List<Exemplaire> listerExemplaire(Ouvrage o) {
+        return o.listerExemplaires();
     }
 
     @Override
-    public boolean removeOuvrage(Ouvrage ouv) {
-        return false;
+    public List<Exemplaire> listerExemplaire(Ouvrage o, boolean enLocation) {
+        return o.listerExemplaires(enLocation);
     }
 
     @Override
-    public Ouvrage updateOuvrage(Ouvrage ouv) {
-        return null;
-    }
-
-    @Override
-    public Ouvrage readOuvrage(String titre) {
-        return null;
-    }
-
-    @Override
-    public List<Ouvrage> getOuvrage() {
-        return ouvrages;
+    public double amendeRetard(Ouvrage o, int nj) {
+        return o.amendeRetard(nj);
     }
 }

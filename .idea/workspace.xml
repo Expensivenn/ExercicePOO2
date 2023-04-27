@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="Exception">
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/DAORayon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/model/RayonModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6bd93db2-262f-45a4-8ad4-036d410486c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/view/LecteurViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/view/LecteurViewConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/view/RayonViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/view/RayonViewConsole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,45 +16,34 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LSCjwzfZnW330hU2t236u4JDmo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2P0E8UbTcH5KVLK9RNU0Rmk4K03" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Documents/Ecole/API2/copie DM/demoMagasin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/Documents/Ecole/POO2/PROF/Bibliotheque2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.GestBiblio">
+}]]></component>
+  <component name="RunManager">
     <configuration name="GestBiblio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bibliotheque.mvp.GestBiblio" />
-      <module name="ExercicesPOO2" />
+      <module name="Bibliotheque" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bibliotheque.mvp.*" />
@@ -66,154 +54,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bibliotheque.Gestion" />
-      <module name="ExercicesPOO2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bibliotheque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bibliotheque.gestion.Gestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bibliotheque.gestion.Gestion" />
-      <module name="ExercicesPOO2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bibliotheque.gestion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GestBiblio" />
-        <item itemvalue="Application.bibliotheque.gestion.Gestion" />
-        <item itemvalue="Application.Gestion" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a9ca430-cdff-4515-9f63-3da4cba65848" name="Changes" comment="" />
-      <created>1675855237325</created>
+      <changelist id="6bd93db2-262f-45a4-8ad4-036d410486c9" name="Changes" comment="" />
+      <created>1682585443250</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675855237325</updated>
-      <workItem from="1675931207316" duration="112000" />
-      <workItem from="1675931339531" duration="8000" />
-      <workItem from="1675931359763" duration="3180000" />
-      <workItem from="1676292463964" duration="20000" />
-      <workItem from="1676392796023" duration="1003000" />
-      <workItem from="1676446065545" duration="745000" />
-      <workItem from="1676464730684" duration="145000" />
-      <workItem from="1676534916291" duration="4289000" />
-      <workItem from="1676982049844" duration="723000" />
-      <workItem from="1677092808692" duration="1544000" />
-      <workItem from="1678305239853" duration="499000" />
-      <workItem from="1678354203116" duration="13000" />
-      <workItem from="1678354557030" duration="6627000" />
-      <workItem from="1678709964010" duration="232000" />
-      <workItem from="1678898547204" duration="127000" />
-      <workItem from="1681888202707" duration="14000" />
-      <workItem from="1681926684863" duration="162000" />
-      <workItem from="1681926879244" duration="435000" />
-      <workItem from="1681982018978" duration="3724000" />
-      <workItem from="1682495872855" duration="39000" />
-      <workItem from="1682533314220" duration="1056000" />
+      <updated>1682585443250</updated>
+      <workItem from="1682585444609" duration="1028000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit gestion">
-      <created>1675934358318</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675934358318</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Commit fonct ajout et suppr">
-      <created>1676446114657</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1676446114657</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Debut gestion">
-      <created>1676982088603</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676982088603</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Todo classe gestion">
-      <created>1678360363661</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678360363661</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Todo classe gestion">
-      <created>1678360537922</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678360537922</updated>
-    </task>
-    <task id="LOCAL-00006" summary="DAO">
-      <created>1681926925907</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681926925907</updated>
-    </task>
-    <task id="LOCAL-00007" summary="DAO">
-      <created>1681926956887</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681926956887</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Exception">
-      <created>1682533337143</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1682533337144</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit gestion" />
-    <MESSAGE value="Commit fonct ajout et suppr" />
-    <MESSAGE value="Debut gestion" />
-    <MESSAGE value="Todo classe gestion" />
-    <MESSAGE value="DAO" />
-    <MESSAGE value="Exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

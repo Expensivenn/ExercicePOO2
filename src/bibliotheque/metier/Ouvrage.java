@@ -1,5 +1,7 @@
 package bibliotheque.metier;
 
+import bibliotheque.utilitaires.Identifiable;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +19,8 @@ public abstract class Ouvrage {
     protected List<Exemplaire> lex = new ArrayList<>();
 
 
-    public Ouvrage(String titre, int ageMin, LocalDate dateParution, TypeOuvrage to, double prixLocation, String langue, String genre) {
+    public Ouvrage(String titre, int ageMin, LocalDate dateParution, TypeOuvrage to, double prixLocation, String langue, String genre)throws Exception {
+       if(titre==null || titre.trim().equals("")) throw new Exception("titre invalide");
         this.titre = titre;
         this.ageMin = ageMin;
         this.dateParution = dateParution;
@@ -145,4 +148,5 @@ public abstract class Ouvrage {
         }
         return lex2;
     }
+
 }
