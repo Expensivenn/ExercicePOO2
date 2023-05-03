@@ -6,11 +6,15 @@ import bibliotheque.metier.Lecteur;
 
 import bibliotheque.mvp.presenter.LecteurPresenter;
 import bibliotheque.mvp.presenter.SpecialLecteurPresenter;
+import bibliotheque.utilitaires.LecteurComparator;
 
 import static bibliotheque.utilitaires.Utilitaire.*;
 
 import java.time.LocalDate;
-
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 
 public class LecteurViewConsole extends AbstractViewConsole<Lecteur> implements SpecialLecteurViewConsole {
@@ -131,6 +135,19 @@ public class LecteurViewConsole extends AbstractViewConsole<Lecteur> implements 
     @Override
     public void exemplairesLocation(Lecteur lec) {
         ((SpecialLecteurPresenter)presenter).exemplairesEnLocation(lec);
+    }
+    @Override
+    public void setListDatas(List<Lecteur> ldatas) {
+        Collections.sort(ldatas, new Comparator<Lecteur>(){
+            @Override
+            public int compare(Lecteur o1, Lecteur o2) {
+                String lec1 = (o1.getNom()+o1.getPrenom()).trim();
+                String lec2 = (o2.getNom()+o2.getPrenom()).trim();
+                return lec1.compareTo(lec2);
+            }
+        }
+        );
+        super.setListDatas(ldatas);
     }
 }
 
