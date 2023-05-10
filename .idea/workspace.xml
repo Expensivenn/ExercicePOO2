@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d15a604e-4d15-48e1-a54a-3f09c23127df" name="Changes" comment="Maj projet">
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/AuteurComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/ExemplaireComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LecteurComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvarageComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/RayonComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/mvp/view/LecteurViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/mvp/view/LecteurViewConsole.java" afterDir="false" />
-    </list>
+    <list default="true" id="d15a604e-4d15-48e1-a54a-3f09c23127df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,13 +12,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +29,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Documents/Ecole/POO2/MOI/ExercicePOO2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Documents/Ecole/POO2/PROF/Bibliotheque2023&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,26 +65,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682673003613</updated>
-      <workItem from="1682673004269" duration="1435000" />
-      <workItem from="1682674677408" duration="2761000" />
-      <workItem from="1683019763523" duration="60000" />
-      <workItem from="1683099143774" duration="2948000" />
+      <workItem from="1682673004269" duration="1661000" />
+      <workItem from="1683096874020" duration="1454000" />
+      <workItem from="1683699909423" duration="647000" />
     </task>
-    <task id="LOCAL-00001" summary="Maj projet">
-      <created>1682674726804</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682674726804</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maj projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maj projet" />
   </component>
 </project>
